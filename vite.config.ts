@@ -34,9 +34,9 @@ const pathSrc = resolve(__dirname, "src");
 /**  Vite配置 @see https://cn.vitejs.dev/config */
 export default defineConfig(({ mode }: ConfigEnv): UserConfig => {
   const env = loadEnv(mode, process.cwd());
-  console.log(env, 11111);
 
   return {
+    base: "/kunlun/",
     resolve: {
       alias: {
         "@": pathSrc,
