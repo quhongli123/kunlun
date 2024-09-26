@@ -72,5 +72,5 @@
   "i18n-ally.displayLanguage": "zh-CN",
   "i18n-ally.enabledFrameworks": ["vue", "react"],
   "i18n-ally.localesPaths": ["src/lang"],
-  "eggHelper.serverPort": 41639
+  "eggHelper.serverPort": 60071
 }

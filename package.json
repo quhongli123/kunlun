@@ -15,7 +15,8 @@
     "lint:lint-staged": "lint-staged",
     "preinstall": "npx only-allow pnpm",
     "prepare": "husky",
-    "commit": "git-cz"
+    "commit": "git-cz",
+    "deploy": "gh-pages -d dist r https://github.com/quhongli123/kunlun.git -b gh-pages"
   },
   "config": {
     "commitizen": {
@@ -99,6 +100,7 @@
     "eslint-plugin-prettier": "^5.2.1",
     "eslint-plugin-vue": "^9.27.0",
     "fast-glob": "^3.3.2",
+    "gh-pages": "^6.1.1",
     "husky": "^9.1.4",
     "lint-staged": "^15.2.9",
     "postcss": "^8.4.41",
