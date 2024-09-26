@@ -1,0 +1,1 @@
+import{o as t,c as o,j as r,aK as c}from"./index-CbNAIyHS.js";/* empty css                 */import{_ as s}from"./_plugin-vue_export-helper-DlAUqK2U.js";const a={},l={style:{padding:"30px"}};function n(_,p){const e=c;return t(),o("div",l,[r(e,{closable:!1,title:"菜单三级-1",type:"error"})])}const m=s(a,[["render",n]]);export{m as default};

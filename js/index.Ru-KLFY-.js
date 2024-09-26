@@ -1,1 +1,0 @@
-import{e as a,o as e,c as n,b as s}from"./index.BFbPa6oo.js";const t={class:"app-container"},i=[s("h1",null,"Vue3-Element-Admin-Thin",-1)],o=a({name:"Dashboard",inheritAttrs:!1,__name:"index",setup:a=>(a,s)=>(e(),n("div",t,i))});export{o as default};
