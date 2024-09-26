@@ -36,7 +36,7 @@ export default defineConfig(({ mode }: ConfigEnv): UserConfig => {
   const env = loadEnv(mode, process.cwd());
 
   return {
-    base: "kunlun", // 确保这里是你的仓库名
+    base: "dist", // 确保这里是你的仓库名
     resolve: {
       alias: {
         "@": pathSrc,
